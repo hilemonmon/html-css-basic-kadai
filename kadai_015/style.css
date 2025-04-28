@@ -1,0 +1,39 @@
+/* ルート要素にフォントサイズを指定 */
+html {
+    font-size: 20px;
+  }
+  
+  /* body全体のフォントと中央寄せ */
+  body {
+    font-family: "Arial", "Meiryo", sans-serif;
+    text-align: center;
+  }
+  
+  /* スカイブルー */
+  .blue {
+    color: skyblue;
+  }
+  
+  /* ピンク */
+  .pink {
+    color: rgb(255, 192, 203);
+  }
+  
+  /* h1にGoogleフォント、フォントサイズ・文字間隔・影・下線 */
+  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em; /* ルート(html)の2倍＝40px */
+    letter-spacing: 1.2em; /* 文字の大きさに対して1.2倍の間隔 */
+    text-shadow: 2px 2px 4px gray; /* 影：2px右、2px下、ぼかし4px、色gray */
+    border-bottom: 3px solid rgb(115, 115, 114); /* 下線 */
+    display: inline-block; /* 下線を文字幅に合わせる */
+    margin-bottom: 20px; /* 下線の後に少し余白 */
+  }
+  
+  /* #basic内のp要素だけを太字にする */
+  #basic p {
+    font-weight: bold;
+  }
+  
+  /* それ以外のp要素はデフォルトの太さ（ノーマル） */
+  
